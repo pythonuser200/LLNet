@@ -1,7 +1,6 @@
 # LLNet: Low-light Image Enhancement with Deep Learning #
 
-This repository is an implementation of [LLNet: A Deep Autoencoder Approach to
-Natural Low-light Image Enhancement] (http://web.me.iastate.edu/soumiks/pdf/Journal/LAS16_llnet.pdf) on Theano. It includes the codes and modules used for running LLNet via a Graphical User Interface. Users can choose to train the network from scratch, or to enhance multiple images using a specific trained model.
+This repository is an implementation of [] () on Theano. It includes the codes and modules used for running LLNet via a Graphical User Interface. Users can choose to train the network from scratch, or to enhance multiple images using a specific trained model.
 
 NOTE: The trained model is not included in this repository.
 
