@@ -2,7 +2,7 @@
 
 This repository includes the codes and modules used for running LLNet via a Graphical User Interface. Users can choose to train the network from scratch, or to enhance multiple images using a specific trained model.
 
-NOTE: Trained model 17x17 is included in this repo.
+NOTE: The trained model is not included in this repository.
 
 ## How do I run the program? ##
 
