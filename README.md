@@ -1,9 +1,9 @@
 # LLNet: Low-light Image Enhancement with Deep Learning #
 
 This repository is an implementation of [LLNet: A Deep Autoencoder Approach to
-Natural Low-light Image Enhancement] (http://web.me.iastate.edu/soumiks/pdf/Journal/LAS16_llnet.pdf) on Theano. It includes the codes and modules used for running LLNet via a Graphical User Interface. Users can choose to train the network from scratch, or to enhance multiple images using a specific trained model.
+Natural Low-light Image Enhancement] (https://arxiv.org/pdf/1511.03995.pdf) on Theano. It includes the codes and modules used for running LLNet via a Graphical User Interface. Users can choose to train the network from scratch, or to enhance multiple images using a specific trained model.
 
-NOTE: The trained model is not included in this repository.
+NOTE: A trained model using 17x17 patches can be found in models/ 
 
 ## How do I run the program? ##
 
@@ -35,7 +35,7 @@ For example, you may type:
 ```
 #!bash
 python llnet.py train datafolder/yourdataset.mat
-python llnet.py test somefolder/darkpicture.png models/save_model.obj
+python llnet.py test somefolder/darkpicture.png models/model_009_17x17.obj
 ```
 
 where file names do not need to be in quotes.
