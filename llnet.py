@@ -230,7 +230,7 @@ def test_SdA(finetune_lr=0.1, pretraining_epochs=hp_pretraining_epochs,
     test_set_x, test_set_y = datasets[2]
     datasets = []
 
-    print '... plotting clean images'
+    print('... plotting clean images')
     image = PIL.Image.fromarray(tile_raster_images(
 	X=test_set_y.get_value(),
 	img_shape=patch_size, tile_shape=(50, 40),
